@@ -87,7 +87,7 @@ public class ExceptionTest {
      } catch (CopySpaceException | MemoryException e) {
          System.err.println("설치 중 오류 발생: " + e.getMessage());
      }  finally {
-    	 System.out.println("프로그램이 종료되었습니다.");
+    	 System.out.println("프로그램이 종료되었다..");
      }
  }
 
